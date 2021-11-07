@@ -10,12 +10,12 @@ self.addEventListener('install', function (event) {
    * Create a function as outlined above
    */
    var urlsToCache = [
-     'https://www.delish.com/holiday-recipes/halloween/a28637917/ghost-cookies-recipe/',
-     'https://www.recipetineats.com/my-very-best-vanilla-cake/#recipe',
-     'https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/',
-     'https://www.howsweeteats.com/2020/11/best-stuffing-recipe/#recipe',
-     'https://tastesbetterfromscratch.com/easy-no-fuss-thanksgiving-turkey/#recipe',
-     'https://sallysbakingaddiction.com/the-great-pumpkin-pie-recipe/#recipe'
+    'https://introweb.tech/assets/json/ghostCookies.json',
+    'https://introweb.tech/assets/json/birthdayCake.json',
+    'https://introweb.tech/assets/json/chocolateChip.json',
+    'https://introweb.tech/assets/json/stuffing.json',
+    'https://introweb.tech/assets/json/turkey.json',
+    'https://introweb.tech/assets/json/pumpkinPie.json'
    ];
     event.waitUntil(
       caches.open(CACHE_NAME)
