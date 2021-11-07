@@ -10,7 +10,7 @@ self.addEventListener('install', function (event) {
    * Create a function as outlined above
    */
    var urlsToCache = [
-     'http://127.0.0.1:5501/index.html'
+     'https://yow008.github.io/Lab7/'
    ];
     event.waitUntil(
       caches.open(CACHE_NAME)
